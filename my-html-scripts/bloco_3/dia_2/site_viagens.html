@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)http://127.0.0.1:5500/my-html-scripts/bloco_3/dia_2/site_viagens.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Projeto: Site de viagem</title>
+<style>
+.titulo {
+    color: green;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtitulos {
+    color:rgb(90, 50, 50);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.textos {
+    color:rgb(32, 30, 30);
+    font-family: fantasy, serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagem {
+    width: 600px;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/8d/03/5a/8d035a6fa2080fa0ad680d09f90c2d21.jpg);
+    background-size: cover;
+}
+
+</style>
+</head>
+<body>
+<h1 class="titulo">VIAJE PARA O DESERTO DE ATACAMA!</h1>
+<h3 class="textos">Deserto de Atacama está localizado na região norte do Chile até <br>
+    a fronteira com o Peru. Com cerca de 1 000 km de extensão, <br>
+    é considerado o deserto mais alto do mundo!!</h3>
+    <a target="_blank" href="https://pt.wikipedia.org/wiki/Deserto_de_Atacama">Link fonte</a>
+
+<h1 class="subtitulos">Passeios</h1>
+<h3 class="textos">Para amantes da natureza, o que não vai faltar são opções de passeios na região.<br>
+    O deserto do Atacama é muito visado por turistas, para prática do trekking, montanhismo, montaria,<br> 
+    off-road, mountain bike, e arqueólogos, devido ao fato da região possuir interessantes artefatos <br>
+    arqueológicos e históricos, além de salinas, gêiseres, vulcões, lagoas coloridas, vales verdejantes<br> 
+    e cânions de água cristalina. Também há múmias com mais de 1 000 anos deixadas pelos Chinchorros <br>
+    (antigos habitantes da área).</h3>
+    <a target="_blank" href="https://pt.wikipedia.org/wiki/Deserto_de_Atacama">Link fonte</a>
+
+    <a target="_blank" href="https://www.umviajante.com.br/chile/4412-trekking-de-guatin-no-deserto-do-atacama">
+        <p>
+    <img src="./site_viagens_files/trekking-guatin-atacama-002.jpg" width="300">
+    <br>Saiba mais sobre o trekking em Atacama.
+        </p></a>
+
+    <a target="_blank" href="https://www.itinari.com/pt/lagoons-in-the-desert-atacama-s-hidden-gems-080b">
+        <p>
+    <img src="./site_viagens_files/lagoas-atacama-001.jpg" width="300">
+    <br>As Lagoas Baltinache.
+       </p></a>
+
+
+<h1 class="subtitulos">Comidinhas</h1>
+
+<h1 class="subtitulos">Hospedagem</h1>
+
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
