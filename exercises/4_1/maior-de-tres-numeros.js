@@ -12,4 +12,4 @@ else if(y > x && y > z) {
 else {
     maior = z;
 }
-    
+console.log(maior);    
