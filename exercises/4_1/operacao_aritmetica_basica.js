@@ -8,5 +8,7 @@ result = a * b;
 result = a / b;
 result = b % a;
 
-
+function sum(a, b) {
+    return a + b;
+  }
 
