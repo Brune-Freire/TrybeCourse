@@ -7,9 +7,8 @@ document.getElementById("second-paragraph").innerText = "Começamos um novo mód
 
 document.getElementById("subtitle").innerText = "Veja as maravilhas do GetElement";
 
+document.getElementsByClassName("estiloParagrafo");
 
-let paragrafo = document.getElementsByTagName("p")
-for (let i = 0; i < paragrafo.length; i += 1){
-    paragrafo[i].style.fontFamily = 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
-}
+document.getElementsByClassName("estiloParagrafo")[0].style.color = "purple";
 
+document.getElementsByTagName("h4");
