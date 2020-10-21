@@ -1,0 +1,54 @@
+.dados-pessoais {
+    display: flex;
+    margin: auto; 
+    width: 90%;
+ } 
+ 
+ .nome {
+     width: 90%;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ 
+ }
+ 
+ .email {
+     width: 80%;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+ 
+ .cpf {
+     width: 80%;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+ 
+ .endereco {
+     width: 80%;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+ 
+ .cidade {
+     width: 80%;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+ 
+ .estado {
+     width: 80%;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+ 
+ .ultimo-emprego {
+     display: flex;
+     margin: auto; 
+     width: 90%;
+  } 

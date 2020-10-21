@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Currículo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="" method="get" class="curriculo">
+        <fieldset class="dados-pessoais">
+            <div class="nome">
+                <input required='requied' type='text' placeholder="Nome:" maxlength="40">
+            </div>
+
+            <div class="email">
+                <input required='requied' type='text' placeholder="E-mail:" maxlength="50">
+            </div>
+
+            <div class="cpf">
+                <input required='requied' type='text' placeholder="CPF:" maxlength="11">
+            </div>
+
+            <div class="endereco">
+                <input required='requied' type='text' placeholder="Endereço:" maxlength="200">
+            </div>
+
+            <div class="cidade">
+                <input required='requied' type='text' placeholder="Cidade:" maxlength="28">
+            </div>
+
+            <div class='estado'>
+                <label for='estado'>Estado</label>
+                <select required='required' name='estado' id='estado'></select>
+            </div>
+
+            <div>
+                <input type='radio' required='required' name='residencia' value='casa' id='casa'>
+                <label for='casa'>Casa</label>
+
+                <input type='radio' required='required' name='residencia' value='apartamento' id='apartamento'>
+                <label for='apartamento'>Apartamento</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="ultimo-emprego">
+            <div>
+                <label for='resumoCurriculo'>Resumo do Currículo</label>
+                <textarea name='resumoCurriculo' required='required' cols='' rows="" maxlength="1000"></textarea>
+            </div>
+
+            <div class="cargo">
+                <input required='requied' type='text' placeholder="Cargo:" maxlength="40">
+            </div>
+
+            <div class="descricaoCargo">
+                <input required='requied' type='text' placeholder="Descrição do cargo:" maxlength="500">
+            </div>
+
+            <div class="dataInicio">
+                <input required='requied' type='text' placeholder="Data de início:" maxlength="40">
+            </div>
+
+
+        </fieldset>
+
+
+
+        <script src="script.js"></script>
+    </form>
+</body>
+
+</html>

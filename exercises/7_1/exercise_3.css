@@ -1,0 +1,20 @@
+.clickNumber{
+    display: inline-block;
+    justify-content: center;
+}
+
+#button{
+    border-radius: 20px;
+    width: 50%;
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+#textInput{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    border-radius: 20px;
+    width: 70px;
+    background-color: rgb(104, 189, 104);
+}
